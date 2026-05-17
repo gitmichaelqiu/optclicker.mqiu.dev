@@ -13,16 +13,16 @@ window.i18n = {
         sectionLabels: { home: 'Home', overview: 'Overview', features: 'Features', 'more-features': 'Features', install: 'Install', companions: 'Companions' }
     },
     zh: {
-        site: { title: 'OptClicker — Option 变右键' },
-        hero: { heading: 'OptClicker', tagline: 'Option 变右键。' },
+        site: { title: 'OptClicker — Option → 右键' },
+        hero: { heading: 'OptClicker', tagline: 'Option → 右键。' },
         quicknav: { page: '页面', links: '链接', more: '更多', overview: '概览', features: '功能', install: '安装', github: 'GitHub', releases: '发布', portfolio: '主页', desktoprenamer: 'DesktopRenamer', spaceswitcher: 'SpaceSwitcher' },
         overview: { label: '概览', headingHtml: '用 <span class="text-editorial gradient-text">Option</span> 键实现右键点击。', body: '按下 Option 键模拟右键点击。按住可实现右键长按——非常适合游戏中瞄准。专为触控板游戏设计，OptClicker 让你无需物理鼠标即可同时进行左右键点击。' },
-        features: { label: '功能', headingHtml: '简单、智能、<span class="text-editorial gradient-text">自动。</span>', slide1num: '01 / 自动切换', slide1title: '按<span class="text-editorial gradient-text">应用</span>启用', slide1body: '当特定应用、网站或空间处于活动状态时自动启用 OptClicker。可按 Bundle ID、进程名或浏览器 URL 进行匹配。', slide2num: '02 / 快捷键', slide2title: '全局<span class="text-editorial gradient-text">热键</span>', slide2body: '使用可自定义的全局快捷键切换 OptClicker 或自动切换功能。实时按键录制——按下任意组合即可设置。' },
-        moreFeatures: { menubarLabel: '菜单栏应用', menubarBody: '安静地运行在菜单栏中。动态图标显示启用/禁用状态，自动切换功能激活时显示"A"标记。', autoToggleLabel: '自动切换规则', autoToggleBody: '按 Bundle ID、精确或模糊进程名或浏览器 URL 进行匹配。结合基于空间的检测，实现按工作区控制。' },
-        install: { label: '安装', headingHtml: '几秒钟即可<span class="text-editorial" style="color: var(--gold-light); font-style: italic;">开始。</span>', body: 'macOS 13.0+。拖入 Applications 文件夹，完成。', download: '下载', or: '或', copy: '复制', disclaimer: '未使用付费 Apple 开发者账号签名——如果 macOS 阻止该应用，请前往<strong>系统设置 → 隐私与安全性</strong>。首次启动时会引导完成权限设置。' },
-        companions: { label: '配套工具', headingHtml: '与<span class="text-editorial gradient-text">你的</span>工具包完美配合。', desktoprenamerTitle: 'DesktopRenamer', desktoprenamerBody: '重命名你的 macOS 空间并启用 SpaceAPI，实现跨应用的空间感知控制。按空间规则所必需。', spaceswitcherTitle: 'SpaceSwitcher', spaceswitcherBody: '按空间设置应用规则和自定义 Dock 配置。切换空间，工作区随之而动。', learnMore: '了解更多' },
+        features: { label: '功能', headingHtml: '简单、智能、<span class="text-editorial gradient-text">自动。</span>', slide1num: '01 / 自动切换', slide1title: '按<span class="text-editorial gradient-text">应用</span>启用', slide1body: '当特定应用、网站或桌面处于活动状态时自动启用 OptClicker。可按 App 名、进程名或浏览器 URL 进行匹配。', slide2num: '02 / 快捷键', slide2title: '全局<span class="text-editorial gradient-text">热键</span>', slide2body: '使用可自定义的全局快捷键切换 OptClicker 或自动切换功能。实时按键录制——按下任意组合即可设置。' },
+        moreFeatures: { menubarLabel: '菜单栏应用', menubarBody: '安静地运行在菜单栏中。动态图标显示启用/禁用状态，自动切换功能激活时显示"A"标记。', autoToggleLabel: '自动切换规则', autoToggleBody: '按 App 名、进程名或浏览器 URL 进行匹配。通过 DesktopRenamer 提供的接口，实现按工作区控制开关。' },
+        install: { label: '安装', headingHtml: '即刻<span class="text-editorial" style="color: var(--gold-light);">开始。</span>', body: 'macOS 13.0+。拖入 Applications 文件夹，完成。', download: '下载', or: '或', copy: '复制', disclaimer: '未使用付费 Apple 开发者账号签名——如果 macOS 阻止该应用，请前往<strong>系统设置 → 隐私与安全性</strong>。首次启动时会引导完成权限设置。' },
+        companions: { label: '配套', headingHtml: '完美契合你的<span class="text-editorial gradient-text">工作流。</span>', desktoprenamerTitle: 'DesktopRenamer', desktoprenamerBody: '重命名你的 macOS 空间，重命名你的体验。按桌面配置 OptClicker 规则所必需。', spaceswitcherTitle: 'SpaceSwitcher', spaceswitcherBody: '按桌面设置 App 规则和自定义程序坞。搭配 DesktopRenamer，切换桌面，工作区随之而动。', learnMore: '了解更多' },
         footer: { copyright: '© 2026 - Michael Qiu.', brand: 'OptClicker.' },
-        sidebar: { home: '首页', overview: '概览', features: '功能', install: '安装', companions: '配套工具', github: 'GitHub' },
-        sectionLabels: { home: '首页', overview: '概览', features: '功能', 'more-features': '功能', install: '安装', companions: '配套工具' }
+        sidebar: { home: '首页', overview: '概览', features: '功能', install: '安装', companions: '配套', github: 'GitHub' },
+        sectionLabels: { home: '首页', overview: '概览', features: '功能', 'more-features': '功能', install: '安装', companions: '配套' }
     }
 };
